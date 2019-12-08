@@ -34,7 +34,7 @@ echo ""
 
 echo "Adding Email Account and Password into config file"
 echo ""
-sudo echo "[smtp.gmail.com]:587    testnetworkmail@gmail.com:PASSWORD" >> /etc/postfix/sasl_passwd
+sudo echo "[smtp.gmail.com]:587    you-email@example.com:PASSWORD" >> /etc/postfix/sasl_passwd
 echo ""
 echo ""
 
